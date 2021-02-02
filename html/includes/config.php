@@ -1,5 +1,9 @@
 <?php
 
+// Added this shim for some servers. also adding the file mysql.php 
+// see https://github.com/dshafik/php7-mysql-shim
+include_once('mysql.php');
+
 // Database connection details
 $dbname = "";
 $hostname = "";
